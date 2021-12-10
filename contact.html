@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleandlayout.css">
+    <title>Final Project Resume</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="contact.html">CONTACT ME</a></li>
+        </ul>
+
+
+    </nav>
+    <form action="type" method="get" class="contact-form">
+        <div class="contact-form">
+            <label for="name">Enter your full name: </label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="contact-form">
+            <label for="email">Enter your email: </label>
+            <input type="text" name="email" id="email" required>
+        </div>
+        <div class="contact-form">
+            <label for="placeofwork">Enter your Company Name: </label>
+            <input type="text" name="place of work" id="placeofwork" required>
+        </div>
+        <div class="contact-form">
+            <input type="submit" value="Thank you for reaching out!">
+        </div>
+    </form>
+    <label for="resume-form">Reason for Message</label>
+    <select id="resume-form">
+        <option value="">--Please Pick a Reason For Messaging--</option>
+        <option value="one">Interest in Resume</option>
+        <option value="two">Job Oppertunity Available</option>
+        <option value="three">Set up Time for Interview</option>
+
+    </select>
+
+    <label for="box">Open Comments</label>
+
+    <textarea id="box" name="box"
+        rows="5" cols="33">
+    </textarea>
+
+</body>
+</html>

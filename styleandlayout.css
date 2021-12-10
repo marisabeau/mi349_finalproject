@@ -1,0 +1,107 @@
+html{
+    background: rgb(7, 34, 7);
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+    border-top: 10px solid whitesmoke;
+    background-color: darkgrey;
+}
+img {
+    width: 100%;
+
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+    margin: 15px 0;
+    color: rgb(13, 59, 13);
+}
+
+h2 {
+    font-size: 2.3em;
+    margin: 0;
+    font-weight: 100;
+    color: rgb(52, 56, 47);
+    font-style:initial;
+
+
+}
+
+h3{
+    font-size: 1.5em;
+    color: gainsboro;
+}
+
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h5{
+    font-style: italic;
+}
+
+
+p{
+    line-height: 1.4em;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.resume-post {
+    border-radius: 15px;
+    margin:0 auto;
+    width: 400px;
+    text-align:left;
+    border: 2px solid #aaa;
+}
+
+.resume-post .marisa {
+    box-shadow: rgba( 0, 0, 0, 0.1) 0 10px 10px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+
+
+nav {
+    color: ghostwhite;
+    position:sticky;
+    top: 0px;   
+    text-align: center;
+
+}
+
+article {
+    padding: 30px;
+    margin: 20px;
+    flex:200px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding:30px;
+    margin:10px;
+}
+
+
+
+
+ul{
+    list-style:circle;
+    list-style: none;
+}
+
+@media (max-width: 400px) {
+    body {
+        color: rgb(141, 137, 137);
+
+    }
+}
