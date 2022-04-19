@@ -1,5 +1,5 @@
 html{
-    background: rgb(7, 34, 7);
+    background: rgb(88, 96, 219);
 }
 
 body{
@@ -17,7 +17,7 @@ h1{
     font-size: 4em;
     text-align: center;
     margin: 15px 0;
-    color: rgb(13, 59, 13);
+    color: rgb(75, 131, 141);
 }
 
 h2 {
@@ -68,6 +68,13 @@ p{
     margin-top: -50px;
 }
 
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:rgb(52, 56, 47);
+    color: white;
+    display: block;
+  }
 
 
 nav {
